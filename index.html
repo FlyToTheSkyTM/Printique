@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Printique - 3D Druck</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      border-bottom: 2px solid #222;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .gallery img {
+      max-width: 250px;
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .btn {
+      background-color: #222;
+      color: #fff;
+      border: none;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #555;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem 0;
+      background: #eee;
+      color: #555;
+    }
+    a.impressum-link {
+      color: #222;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a.impressum-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Printique - 3D Druck
+</header>
+
+<main>
+  <section>
+    <h2>Aktuelles Filament</h2>
+    <div class="gallery">
+      <!-- Hier deine Filament-Bilder einfügen -->
+      <img src="filament1.jpg" alt="Filament Rot" />
+      <img src="filament2.jpg" alt="Filament Blau" />
+      <img src="filament3.jpg" alt="Filament Schwarz" />
+    </div>
+  </section>
+
+  <section>
+    <h2>Beispiel-Drucke</h2>
+    <div class="gallery">
+      <!-- Hier Beispiel-Druck-Bilder -->
+      <img src="druck1.jpg" alt="3D Druck Beispiel 1" />
+      <img src="druck2.jpg" alt="3D Druck Beispiel 2" />
+      <img src="druck3.jpg" alt="3D Druck Beispiel 3" />
+    </div>
+  </section>
+
+  <div class="button-container">
+    <a class="btn" href="mailto:l.reinhardt.business@gmail.com">Kontakt aufnehmen</a>
+  </div>
+
+  <div style="text-align:center; margin-top: 2rem;">
+    <a class="impressum-link" href="#impressum">Impressum</a>
+  </div>
+
+  <section id="impressum" style="margin-top: 3rem; font-size: 0.9rem; color: #555;">
+    <h2>Impressum</h2>
+    <p>
+      Louis Reinhardt<br/>
+      Nimrodstraße 54<br/>
+      13469 Berlin<br/>
+      <br/>
+      E-Mail: <a href="mailto:l.reinhardt.business@gmail.com">l.reinhardt.business@gmail.com</a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  © 2025 Printique
+</footer>
+
+</body>
+</html>
